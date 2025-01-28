@@ -17,24 +17,29 @@
           id="tf-input"
           class="textfield"
         />
-        <button onclick="addTask()" class="button">Add Task</button>
+        <button onclick="addTask()" id="add-button" class="button">Add Task</button>
       </div>
       <div>
         <ul id="task-container">
           <li id="4344" class="list-item">
             Task 1
+            <button onclick="editTask('4344')">Edit</button>
+
             <button onclick="deleteTask('4344')" class="delete-button">
               Delete
             </button>
           </li>
           <li id="4345" class="list-item">
             Task 2
+            <button onclick="editTask('4345')">Edit</button>
             <button onclick="deleteTask('4345')" class="delete-button">
               Delete
             </button>
           </li>
           <li id="4348" class="list-item">
             Task 3
+            <button onclick="editTask('4348')">Edit</button>
+
             <button onclick="deleteTask('4348')" class="delete-button">
               Delete
             </button>
